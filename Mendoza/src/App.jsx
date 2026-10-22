@@ -5,11 +5,13 @@ import NavPagina from './components/NavPagina'
 import MainPagina from './components/MainPagina'
 import AsidePagina from './components/AsidePagina'
 import FooterPagina from './components/FooterPagina'
+import PanelPagina from './components/PanelPagina'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <PanelPagina />
       <HeaderPagina
         titulo="Portal Académico"
         nombreInstitucion='Instituto de Educación Superior Público "Trujillo"'
